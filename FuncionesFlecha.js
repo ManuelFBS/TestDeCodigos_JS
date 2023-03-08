@@ -4,6 +4,6 @@
 const incrementar = (numero, valor) => valor !== undefined ? numero + valor : numero + 1;
 
 // let increm = incrementar(11);     // Sin valor de 2do parámetro... Sin especificar...
-let increm = incrementar(17);
+let increm = incrementar(17, 8);
 
 console.log(increm);
